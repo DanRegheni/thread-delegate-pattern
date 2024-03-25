@@ -18,3 +18,4 @@ This implementation is based on the example provided by Mark Richards, offering 
 ## Usage
 The repository serves as an educational tool for developers and architects aiming to implement or understand the Thread-Delegate Pattern in their event-driven systems, ensuring that messages are processed efficiently, in order, and contextually.
 
+![image](https://github.com/DanRegheni/thread-delegate-pattern/assets/7289123/db897416-dcb9-4894-a5ab-cfba6515b5a9)
