@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sender", "sender\sender.csproj", "{33FAE605-4E69-4048-87CA-1520F9E161BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dispatcher", "dispatcher\dispatcher.csproj", "{EC9F496C-E608-45AD-B158-67396967CCBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33FAE605-4E69-4048-87CA-1520F9E161BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FAE605-4E69-4048-87CA-1520F9E161BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FAE605-4E69-4048-87CA-1520F9E161BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FAE605-4E69-4048-87CA-1520F9E161BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9F496C-E608-45AD-B158-67396967CCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9F496C-E608-45AD-B158-67396967CCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9F496C-E608-45AD-B158-67396967CCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9F496C-E608-45AD-B158-67396967CCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

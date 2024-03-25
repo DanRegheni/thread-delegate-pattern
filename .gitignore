@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo 
+*.user 
+*.vs
+.idea
+_ReSharper.* 
+bin 
+obj 
+packages
+logs
+*.zip
+*.dbmdl
+*.jfm
+.env.local
+/Cad/qodana.yaml
