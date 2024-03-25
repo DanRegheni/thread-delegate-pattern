@@ -1,0 +1,25 @@
+sequenceDiagram
+    participant R as Message Receiver
+    participant D as Dispatcher
+    participant A as AllocationMap
+    participant P as ProcessingCountMap
+    participant T as ThreadPool
+    participant TP as TradeProcessor
+
+    R->>D: New Message Received
+    D->>D: Determine Context
+    D->>A: Check if Context Exists
+    alt Context Exists
+        A-->>D: Return Existing Thread ID
+    else New Context
+        D->>P: Get Least Busy Thread ID
+        P-->>D: Return Thread ID
+        D->>A: Assign New Context to Thread ID
+    end
+    D->>P: Increment Message Count for Thread
+    D->>T: Retrieve TradeProcessor for Thread ID
+    T-->>D: Return TradeProcessor Instance
+    D->>TP: Dispatch Message to TradeProcessor
+    TP->>D: Notify Start Processing (optional)
+    TP->>D: Notify End Processing
+    D->>P: Decrement Message Count for Thread

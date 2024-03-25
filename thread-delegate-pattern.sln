@@ -4,6 +4,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sender", "sender\sender.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dispatcher", "dispatcher\dispatcher.csproj", "{EC9F496C-E608-45AD-B158-67396967CCBD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{5C59E3F5-58F3-47E6-A746-87261EB81ECE}"
+	ProjectSection(SolutionItems) = preProject
+		Sequence.mermaid = Sequence.mermaid
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

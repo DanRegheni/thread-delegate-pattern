@@ -1,7 +1,8 @@
 # Thread-Delegate-Pattern in Event-Driven Architectures
 
 ## Overview
-Explore the implementation of the Thread-Delegate Pattern in event-driven architectures for ordered, context-specific message processing using C#. This repository provides a practical demonstration, inspired by Mark Richards' example, showcasing how to ensure that messages within a specific context are processed sequentially in a multi-threaded environment.
+Explore the implementation of the Thread-Delegate Pattern in event-driven architectures for ordered, context-specific message processing using C#. This repository provides a practical demonstration, 
+inspired by Mark Richards (https://www.youtube.com/watch?v=ZM0IFSToceU), showcasing how to ensure that messages within a specific context are processed sequentially in a multi-threaded environment.
 
 ## Description
 This GitHub repository is a deep dive into utilizing the Thread-Delegate Pattern within event-driven architectures, focusing on maintaining the order of message processing based on their context. It's particularly useful for systems where the sequence and context of message processing are critical for data integrity and consistency.
